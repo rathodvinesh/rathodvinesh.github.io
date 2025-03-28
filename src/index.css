@@ -34,12 +34,12 @@ html {
   max-width: 100%;
 }
 
-/* .container {
-  width: 100% !important;
+.container {
+  /* width: 100% !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
-  overflow-x: hidden !important;
-} */
+  overflow-x: hidden !important; */
+}
 
 @media screen and (max-width: 640px) {
   body {
