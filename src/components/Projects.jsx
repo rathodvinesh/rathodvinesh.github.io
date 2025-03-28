@@ -22,21 +22,22 @@ const Projects = () => {
             </motion.div>
 
             <div className="space-y-24">
-              <div className="flex space-x-6">
+              <div className="flex flex-col md:flex-row md:space-x-6">
                 <motion.h1 
-                                              whileInView={{opacity: 1, x: 0}}
-                                              initial={{opacity: 0, x: -100}}
-                                              transition={{duration: 1}}
-                className="font-normal text-gray-700 text-3xl md:text-4xl">
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{opacity: 0, x: -50}}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{duration: 0.5, ease: "easeOut"}}
+                    className="font-normal text-white bg-neutral-800 rounded-full w-12 h-12 flex items-center justify-center text-2xl md:text-3xl mb-4 md:mb-0">
                   01
                 </motion.h1>
 
-                {/* <span className="w-28 h-0.5 bg-gray-300 mt-5"></span> */}
-
                 <motion.div
-                                              whileInView={{opacity: 1, x: 0}}
-                                              initial={{opacity: 0, x: 100}}
-                                              transition={{duration: 1}}
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{opacity: 0, x: 50}}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{duration: 0.5, ease: "easeOut"}}
+                    className="flex-1"
                 >
                   <h1 className="font-normal text-gray-300 text-3xl md:text-4xl mb-3">
                       ExamCentral ERP System
@@ -65,21 +66,22 @@ const Projects = () => {
                 </motion.div>
               </div>
 
-              <div className="flex space-x-6">
+              <div className="flex flex-col md:flex-row md:space-x-6">
                 <motion.h1 
-                                              whileInView={{opacity: 1, x: 0}}
-                                              initial={{opacity: 0, x: -100}}
-                                              transition={{duration: 1}}
-                className="font-normal text-gray-700 text-3xl md:text-4xl">
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{opacity: 0, x: -50}}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{duration: 0.5, ease: "easeOut"}}
+                    className="font-normal text-white bg-neutral-800 rounded-full w-12 h-12 flex items-center justify-center text-2xl md:text-3xl mb-4 md:mb-0">
                   02
                 </motion.h1>
 
-                {/* <span className="w-28 h-0.5 bg-gray-300 mt-5"></span> */}
-
                 <motion.div
-                whileInView={{opacity: 1, x: 0}}
-                initial={{opacity: 0, x: 100}}
-                transition={{duration: 1}}
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{opacity: 0, x: 50}}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{duration: 0.5, ease: "easeOut"}}
+                    className="flex-1"
                 >
                   <h1 className="font-normal text-gray-300 text-3xl md:text-4xl mb-5">
                   Care Taker Application
@@ -99,21 +101,22 @@ const Projects = () => {
                 </motion.div>
               </div>
 
-              <div className="flex space-x-6">
+              <div className="flex flex-col md:flex-row md:space-x-6">
                 <motion.h1 
-                                              whileInView={{opacity: 1, x: 0}}
-                                              initial={{opacity: 0, x: -100}}
-                                              transition={{duration: 1}}
-                className="font-normal text-gray-700 text-3xl md:text-4xl">
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{opacity: 0, x: -50}}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{duration: 0.5, ease: "easeOut"}}
+                    className="font-normal text-white bg-neutral-800 rounded-full w-12 h-12 flex items-center justify-center text-2xl md:text-3xl mb-4 md:mb-0">
                   03
                 </motion.h1>
 
-                {/* <span className="w-28 h-0.5 bg-gray-300 mt-5"></span> */}
-
                 <motion.div
-                whileInView={{opacity: 1, x: 0}}
-                initial={{opacity: 0, x: 100}}
-                transition={{duration: 1}}
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{opacity: 0, x: 50}}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{duration: 0.5, ease: "easeOut"}}
+                    className="flex-1"
                 >
                   <h1 className="font-normal text-gray-300 text-3xl md:text-4xl mb-5">
                   VPPCOE Railway Concession Management Software
