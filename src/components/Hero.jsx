@@ -27,7 +27,7 @@ const Hero = () => {
               ease: [0, 0.71, 0.2, 1.01],
           }}
           className="rounded-full w-48 h-48 object-cover mt-0"
-          src="src/assets/VRImage3.jpg" alt="Image" /> 
+          src="./src/assets/VRImage3.jpg" alt="Image" /> 
 
           </div>
 

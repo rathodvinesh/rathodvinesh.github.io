@@ -6,7 +6,7 @@ const Navbr = () => {
     <>
       <div className="ontainer max-w-screen-xl mx-auto px-4 py-10 md:py-16">
         <nav className="flex items-center justify-between mb-2">
-          <img src="src/assets/VRlogo.png" alt="Logo" className="w-12 h-auto"/>
+          <img src="./src/assets/VRlogo.png" alt="Logo" className="w-12 h-auto"/>
 
           {/* <button className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
             Get my CV
