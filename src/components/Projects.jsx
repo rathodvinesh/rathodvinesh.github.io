@@ -48,7 +48,7 @@ const Projects = () => {
                       {/* <a href="#" target="_blank" rel="noopener noreferrer" 
                         className="text-xl text-purple-700 hover:text-purple-500 transition-colors">
                         <BsGithub />
-                      </a> */}
+                      </a> changes*/}
                       <a href="https://exam.vppcoe.getflytechnologies.com/" target="_blank" rel="noopener noreferrer"
                         className="text-xl text-purple-700 hover:text-purple-500 transition-colors">
                         <BiLinkExternal />
