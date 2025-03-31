@@ -11,7 +11,7 @@ const About = () => {
                   whileInView={{opacity: 1, y: 0}}
                   initial={{opacity: 0, y: -100}}
                   transition={{duration: 1}}
-            className="font-semibold text-gray-300 text-3xl sm:text-6xl md:text-6xl lg:text-6xl mb-8 md:mb-16 lg:mb-24">
+            className="font-medium text-gray-300 text-3xl sm:text-6xl md:text-6xl lg:text-6xl mb-8 md:mb-16 lg:mb-24">
             Your skills are best shown through results, not numbers
             </motion.h1>
 
