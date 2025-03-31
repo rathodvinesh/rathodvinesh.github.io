@@ -14,7 +14,7 @@ const Projects = () => {
                             initial={{opacity: 0, x: -100}}
                             transition={{duration: 1}}
             className="mb-10 lg:mb-0">
-              <h1 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+              <h1 className="font-medium text-gray-300 text-3xl md:text-4xl mb-5">
                 Projects
               </h1>
 
