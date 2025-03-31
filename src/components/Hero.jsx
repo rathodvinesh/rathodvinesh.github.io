@@ -56,7 +56,7 @@ const Hero = () => {
           </motion.p>
 
           <a
-            href="#"
+            href="mailto:rathodvinesh27@gmail.com?subject=Job%20Opportunity%20for%20You&body=Hi%20Vinesh%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20I'm%20impressed%20with%20your%20skills%20and%20projects.%20I%20would%20like%20to%20discuss%20a%20potential%20opportunity%20with%20you.%0A%0AJob%20Details%3A%0A-------------------%0ACompany%3A%0APosition%3A%0ALocation%3A%0AJob%20Type%3A%20(Full-time%2FPart-time%2FContract)%0A%0ARequired%20Skills%3A%0A-------------------%0A-%20%0A-%20%0A-%20%0A%0AProject%20Details%20(if%20any)%3A%0A-------------------%0A%0A%0AI%20would%20love%20to%20schedule%20a%20call%20to%20discuss%20this%20opportunity%20in%20detail.%20Please%20let%20me%20know%20your%20availability.%0A%0ABest%20regards%2C%0AName%3A%0ADesignation%3A%0AContact%3A"
             className="border-2 border-neutral-400 px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-900 text-gray-50 text-sm rounded-lg hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500"
           >
             Hire me

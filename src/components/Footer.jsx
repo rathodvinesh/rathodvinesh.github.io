@@ -12,7 +12,7 @@ const Footer = () => {
 
             <div className="flex items-center justify-center space-x-2">
               <a
-                href="#"
+                href="https://www.x.com/Vinesh_0001"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
                 <i
@@ -22,6 +22,16 @@ const Footer = () => {
               </a>
 
               <a
+                href="https://www.linkedin.com/in/rathodvinesh"
+                className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
+              >
+                <i
+                  data-feather="linkedin"
+                  className="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"
+                ></i>
+              </a>
+
+              {/* <a
                 href="#"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
@@ -29,19 +39,19 @@ const Footer = () => {
                   data-feather="dribbble"
                   className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"
                 ></i>
-              </a>
+              </a> */}
 
-              <a
-                href="#"
+              {/* <a
+                href="https://www.facebook.com/rathodvinesh"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
                 <i
                   data-feather="facebook"
                   className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"
                 ></i>
-              </a>
+              </a> */}
 
-              <a
+              {/* <a
                 href="#"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
@@ -49,10 +59,10 @@ const Footer = () => {
                   data-feather="codepen"
                   className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"
                 ></i>
-              </a>
+              </a> */}
 
               <a
-                href="#"
+                href="mailto:rathodvinesh27@gmail.com?subject=Job%20Opportunity%20for%20You&body=Hi%20Vinesh%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20I'm%20impressed%20with%20your%20skills%20and%20projects.%20I%20would%20like%20to%20discuss%20a%20potential%20opportunity%20with%20you.%0A%0AJob%20Details%3A%0A-------------------%0ACompany%3A%0APosition%3A%0ALocation%3A%0AJob%20Type%3A%20(Full-time%2FPart-time%2FContract)%0A%0ARequired%20Skills%3A%0A-------------------%0A-%20%0A-%20%0A-%20%0A%0AProject%20Details%20(if%20any)%3A%0A-------------------%0A%0A%0AI%20would%20love%20to%20schedule%20a%20call%20to%20discuss%20this%20opportunity%20in%20detail.%20Please%20let%20me%20know%20your%20availability.%0A%0ABest%20regards%2C%0A"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
                 <i
@@ -62,7 +72,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/rathod_vinesh27"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
                 <i
