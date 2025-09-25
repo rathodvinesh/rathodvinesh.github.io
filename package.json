@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001745",
     "clsx": "^2.1.1",
     "feather-icons": "^4.29.2",
     "framer-motion": "^12.6.2",
