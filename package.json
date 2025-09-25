@@ -17,14 +17,15 @@
     "feather-icons": "^4.29.2",
     "framer-motion": "^12.6.2",
     "gh-pages": "^6.3.0",
-    "motion": "^12.6.2",
+    "motion": "^12.23.21",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.4.0",
     "react-simple-typewriter": "^5.0.1",
     "react-tooltip": "^5.28.0",
-    "tailwind-merge": "^3.0.2"
+    "tailwind-merge": "^3.0.2",
+    "tooltip": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

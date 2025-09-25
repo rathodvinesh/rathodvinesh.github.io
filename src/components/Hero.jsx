@@ -7,7 +7,7 @@ import { motion } from "motion/react"
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: [' Full Stack Developer', 'n Android Developer'],
+    words: [' Backend Developer', 'n Android Developer'],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
