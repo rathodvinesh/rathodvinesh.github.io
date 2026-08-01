@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 1.2%; /* #030303 */
+    --foreground: 33 22% 87%; /* #e4ded7 */
+
+    --card: 0 0% 2.5%;
+    --card-foreground: 33 22% 87%;
+
+    --popover: 0 0% 2.5%;
+    --popover-foreground: 33 22% 87%;
+
+    --primary: 33 22% 87%;
+    --primary-foreground: 0 0% 1.2%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 33 22% 87%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 64%; /* #a3a3a3 */
+
+    --accent: 33 22% 87%;
+    --accent-foreground: 0 0% 1.2%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 33 22% 87%;
+
+    --border: 33 22% 87%;
+    --input: 0 0% 15%;
+    --ring: 33 22% 87%;
+
+    --radius: 0.25rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: rgba(228, 222, 215, 0.15);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #030303;
+    color: #e4ded7;
+    font-feature-settings: "rlh" 1, "cv02" 1, "cv03" 1, "cv04" 1;
+    overflow-x: hidden;
+    selection-background-color: #e4ded7;
+    selection-color: #030303;
+  }
+}
+
+/* Thin Grid Lines & Utility Classes */
+.border-grid {
+  border: 0.5px solid rgba(228, 222, 215, 0.15);
+}
+
+.border-grid-t {
+  border-top: 0.5px solid rgba(228, 222, 215, 0.15);
+}
+
+.border-grid-b {
+  border-bottom: 0.5px solid rgba(228, 222, 215, 0.15);
+}
+
+.border-grid-l {
+  border-left: 0.5px solid rgba(228, 222, 215, 0.15);
+}
+
+.border-grid-r {
+  border-right: 0.5px solid rgba(228, 222, 215, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #030303;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(228, 222, 215, 0.2);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(228, 222, 215, 0.5);
+}
+
